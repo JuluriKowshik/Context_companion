@@ -1,4 +1,4 @@
-const DEFAULTS = { companionEnabled: true, backendUrl: "http://localhost:8000" };
+const DEFAULTS = { companionEnabled: true, backendUrl: "https://api.example.com" };
 const $ = (id) => document.getElementById(id);
 
 async function load() {
