@@ -1,4 +1,6 @@
-const DEFAULTS = { companionEnabled: true, backendUrl: "https://api.example.com" };
+// Public production value should be replaced with your deployed backend hostname.
+// Example: https://api.yourdomain.com
+const DEFAULTS = { companionEnabled: true, backendUrl: "https://api.yourdomain.com" };
 const $ = (id) => document.getElementById(id);
 
 async function load() {

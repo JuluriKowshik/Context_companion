@@ -6,7 +6,7 @@
   "permissions": ["storage"],
   "host_permissions": [
     "https://www.youtube.com/*",
-    "https://api.example.com/*"
+    "https://api.yourdomain.com/*"
   ],
   "content_scripts": [
     {
