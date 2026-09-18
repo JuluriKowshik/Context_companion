@@ -1,0 +1,170 @@
+{
+ "domain": "internet_slang",
+ "category": "internet_culture",
+ "concepts": [
+  {
+   "concept": "doomscrolling",
+   "aliases": [
+    "doom scrolling",
+    "doomscroll"
+   ],
+   "explanation": "Compulsively reading bad news online even though it makes you feel worse."
+  },
+  {
+   "concept": "deepfake",
+   "aliases": [
+    "deepfakes",
+    "deep fake",
+    "deep fakes"
+   ],
+   "explanation": "AI-generated fake video or audio that makes someone appear to say or do things they never did."
+  },
+  {
+   "concept": "doxxing",
+   "aliases": [
+    "doxxed",
+    "doxing",
+    "doxed",
+    "dox"
+   ],
+   "explanation": "Publishing someone's private information online, such as their address, to intimidate them."
+  },
+  {
+   "concept": "catfishing",
+   "aliases": [
+    "catfished"
+   ],
+   "explanation": "Using a fake online identity to deceive someone, usually romantically."
+  },
+  {
+   "concept": "the dark web",
+   "aliases": [
+    "dark web",
+    "darknet",
+    "tor browser"
+   ],
+   "explanation": "Hidden parts of the internet reachable only with special software, used for anonymity and illegal markets."
+  },
+  {
+   "concept": "rug pull",
+   "aliases": [
+    "rug pulled",
+    "rugpull"
+   ],
+   "explanation": "A crypto scam where developers hype a token, then vanish with investors' money."
+  },
+  {
+   "concept": "nft",
+   "aliases": [
+    "nfts",
+    "non-fungible token"
+   ],
+   "explanation": "A blockchain token proving ownership of a digital item. Prices boomed and crashed in the early 2020s."
+  },
+  {
+   "concept": "going viral",
+   "aliases": [
+    "went viral",
+    "gone viral",
+    "viral video",
+    "blew up online"
+   ],
+   "explanation": "Content spreading extremely fast across the internet through shares."
+  },
+  {
+   "concept": "cancel culture",
+   "aliases": [
+    "getting cancelled",
+    "got cancelled"
+   ],
+   "explanation": "Mass online withdrawal of support from a public figure after they say or do something offensive."
+  },
+  {
+   "concept": "influencer",
+   "aliases": [
+    "influencers",
+    "content creator",
+    "content creators"
+   ],
+   "explanation": "Someone who earns money by promoting products to their large social media following."
+  },
+  {
+   "concept": "bot farm",
+   "aliases": [
+    "troll farm",
+    "bot farms",
+    "troll farms"
+   ],
+   "explanation": "Organised operations running fake accounts to spread propaganda or manipulate opinion online."
+  },
+  {
+   "concept": "phishing",
+   "aliases": [
+    "phishing email",
+    "phished",
+    "spear phishing"
+   ],
+   "explanation": "Fake messages tricking people into revealing passwords or clicking malicious links."
+  },
+  {
+   "concept": "vpn",
+   "aliases": [
+    "vpns",
+    "virtual private network"
+   ],
+   "explanation": "A service that hides your location and encrypts your internet traffic."
+  },
+  {
+   "concept": "ghosting",
+   "aliases": [
+    "ghosted",
+    "ghost him",
+    "ghost her"
+   ],
+   "explanation": "Cutting off all contact with someone suddenly and without explanation."
+  },
+  {
+   "concept": "red pill",
+   "aliases": [
+    "red-pilled",
+    "redpilled",
+    "take the red pill"
+   ],
+   "explanation": "Claiming to have woken up to a hidden truth. From The Matrix, now used across online subcultures."
+  },
+  {
+   "concept": "npc",
+   "aliases": [
+    "npcs"
+   ],
+   "explanation": "Non-player character. Online insult for someone seen as having no independent thought."
+  },
+  {
+   "concept": "grifter",
+   "aliases": [
+    "grift",
+    "grifting",
+    "the grift"
+   ],
+   "explanation": "A con artist, especially one running a long-term scam for money or attention."
+  },
+  {
+   "concept": "shadowban",
+   "aliases": [
+    "shadowbanned",
+    "shadow ban",
+    "shadow banned"
+   ],
+   "explanation": "A platform quietly hiding someone's posts from others without telling them."
+  },
+  {
+   "concept": "meme stock",
+   "aliases": [
+    "meme stocks",
+    "to the moon",
+    "diamond hands"
+   ],
+   "explanation": "A stock driven up by online hype rather than fundamentals, like GameStop in 2021."
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "domain": "history_culture",
+ "category": "historical_reference",
+ "concepts": [
+  {
+   "concept": "the cold war",
+   "aliases": [
+    "cold war",
+    "cold war era"
+   ],
+   "explanation": "The 1947 to 1991 standoff between the US and Soviet Union, fought through proxies, spies and arms races, not direct war."
+  },
+  {
+   "concept": "iron curtain",
+   "aliases": [
+    "behind the iron curtain",
+    "the iron curtain"
+   ],
+   "explanation": "The Cold War divide between Soviet-controlled Eastern Europe and the West."
+  },
+  {
+   "concept": "the manhattan project",
+   "aliases": [
+    "manhattan project"
+   ],
+   "explanation": "The secret US program that built the first atomic bombs during World War II."
+  },
+  {
+   "concept": "the great depression",
+   "aliases": [
+    "great depression",
+    "the depression era",
+    "depression era"
+   ],
+   "explanation": "The worldwide economic collapse of the 1930s, with mass unemployment and poverty."
+  },
+  {
+   "concept": "watergate",
+   "aliases": [
+    "watergate scandal",
+    "watergate break-in"
+   ],
+   "explanation": "The 1970s scandal where President Nixon's team spied on rivals and covered it up, forcing his resignation."
+  },
+  {
+   "concept": "mccarthyism",
+   "aliases": [
+    "mccarthy era",
+    "red scare"
+   ],
+   "explanation": "The 1950s US campaign of accusing people of communism with little evidence, ruining careers."
+  },
+  {
+   "concept": "cuban missile crisis",
+   "aliases": [
+    "missile crisis"
+   ],
+   "explanation": "The 1962 standoff over Soviet missiles in Cuba, the closest the Cold War came to nuclear war."
+  },
+  {
+   "concept": "the holocaust",
+   "aliases": [
+    "holocaust",
+    "the final solution",
+    "concentration camps"
+   ],
+   "explanation": "The Nazi genocide of six million Jews and millions of others during World War II."
+  },
+  {
+   "concept": "d-day",
+   "aliases": [
+    "d day",
+    "normandy landings",
+    "normandy invasion"
+   ],
+   "explanation": "The Allied invasion of Nazi-occupied France on 6 June 1944, the largest seaborne invasion in history."
+  },
+  {
+   "concept": "pearl harbor",
+   "aliases": [
+    "attack on pearl harbor"
+   ],
+   "explanation": "Japan's surprise attack on the US fleet in Hawaii in December 1941, bringing the US into World War II."
+  },
+  {
+   "concept": "the berlin wall",
+   "aliases": [
+    "berlin wall",
+    "fall of the wall",
+    "wall came down"
+   ],
+   "explanation": "The barrier dividing East and West Berlin from 1961 to 1989. Its fall marked the Cold War's end."
+  },
+  {
+   "concept": "the renaissance",
+   "aliases": [
+    "renaissance",
+    "renaissance man"
+   ],
+   "explanation": "The 14th to 17th century European revival of art, science and learning."
+  },
+  {
+   "concept": "the enlightenment",
+   "aliases": [
+    "enlightenment thinkers",
+    "age of enlightenment"
+   ],
+   "explanation": "The 18th century movement putting reason and individual rights above tradition and authority."
+  },
+  {
+   "concept": "industrial revolution",
+   "aliases": [
+    "the industrial revolution"
+   ],
+   "explanation": "The 18th and 19th century shift from hand production to machines and factories, reshaping society."
+  },
+  {
+   "concept": "prohibition",
+   "aliases": [
+    "prohibition era",
+    "during prohibition",
+    "bootlegging",
+    "bootlegger",
+    "speakeasy"
+   ],
+   "explanation": "The 1920 to 1933 US ban on alcohol, which fuelled organised crime and secret bars."
+  },
+  {
+   "concept": "jim crow",
+   "aliases": [
+    "jim crow laws",
+    "jim crow south",
+    "segregation"
+   ],
+   "explanation": "Laws enforcing racial segregation in the US South from the late 1800s to the 1960s."
+  },
+  {
+   "concept": "civil rights movement",
+   "aliases": [
+    "civil rights era",
+    "civil rights act"
+   ],
+   "explanation": "The 1950s and 60s struggle to end racial segregation and discrimination in the US."
+  },
+  {
+   "concept": "the crusades",
+   "aliases": [
+    "crusades",
+    "crusader",
+    "crusaders"
+   ],
+   "explanation": "Medieval wars launched by European Christians to seize the Holy Land from Muslim rule."
+  },
+  {
+   "concept": "the inquisition",
+   "aliases": [
+    "spanish inquisition",
+    "inquisition"
+   ],
+   "explanation": "Catholic Church tribunals hunting heresy, notorious for torture and forced confessions."
+  },
+  {
+   "concept": "apartheid",
+   "aliases": [
+    "apartheid era",
+    "apartheid regime"
+   ],
+   "explanation": "South Africa's system of legalised racial segregation and white minority rule, 1948 to 1994."
+  },
+  {
+   "concept": "the space race",
+   "aliases": [
+    "space race",
+    "sputnik"
+   ],
+   "explanation": "The US and Soviet competition to dominate spaceflight, from Sputnik in 1957 to the Moon landing in 1969."
+  },
+  {
+   "concept": "9/11",
+   "aliases": [
+    "september 11",
+    "september 11th",
+    "nine eleven",
+    "twin towers"
+   ],
+   "explanation": "The 2001 al-Qaeda attacks on the US using hijacked planes, killing nearly 3,000 people."
+  },
+  {
+   "concept": "the patriot act",
+   "aliases": [
+    "patriot act"
+   ],
+   "explanation": "US law passed after 9/11 expanding government surveillance and detention powers."
+  },
+  {
+   "concept": "the kgb",
+   "aliases": [
+    "kgb",
+    "kgb agent"
+   ],
+   "explanation": "The Soviet Union's security and intelligence agency, feared for spying and repression."
+  },
+  {
+   "concept": "the stasi",
+   "aliases": [
+    "stasi"
+   ],
+   "explanation": "East Germany's secret police, known for spying on its own citizens through informants."
+  },
+  {
+   "concept": "mossad",
+   "aliases": [
+    "the mossad"
+   ],
+   "explanation": "Israel's national intelligence agency."
+  },
+  {
+   "concept": "mi6",
+   "aliases": [
+    "mi-6"
+   ],
+   "explanation": "Britain's foreign intelligence service, home of the fictional James Bond."
+  },
+  {
+   "concept": "interpol",
+   "aliases": [
+    "interpol notice",
+    "red notice"
+   ],
+   "explanation": "The international police organisation coordinating cooperation between countries' police forces."
+  },
+  {
+   "concept": "the mafia",
+   "aliases": [
+    "mafia",
+    "cosa nostra",
+    "la cosa nostra",
+    "made man",
+    "omerta",
+    "omertà"
+   ],
+   "explanation": "Organised crime families of Sicilian origin. A made man is a fully initiated member."
+  },
+  {
+   "concept": "yakuza",
+   "aliases": [
+    "the yakuza"
+   ],
+   "explanation": "Japan's organised crime syndicates, known for strict hierarchy and full-body tattoos."
+  },
+  {
+   "concept": "cartel",
+   "aliases": [
+    "the cartel",
+    "drug cartel",
+    "cartels"
+   ],
+   "explanation": "A criminal organisation controlling drug production and trafficking, mainly in Latin America."
+  },
+  {
+   "concept": "the illuminati",
+   "aliases": [
+    "illuminati"
+   ],
+   "explanation": "An 18th century secret society, now a byword for conspiracy theories about hidden elites."
+  },
+  {
+   "concept": "freemasons",
+   "aliases": [
+    "freemason",
+    "masonic",
+    "the masons"
+   ],
+   "explanation": "A centuries-old fraternal society with secret rituals, often the subject of conspiracy theories."
+  }
+ ]
+}

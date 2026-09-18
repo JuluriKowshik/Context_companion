@@ -1,0 +1,264 @@
+{
+ "domain": "finance",
+ "category": "financial",
+ "concepts": [
+  {
+   "concept": "short selling",
+   "aliases": [
+    "shorting",
+    "short the market",
+    "shorting the market",
+    "short position",
+    "shorted",
+    "shorting stocks",
+    "sell short",
+    "short sellers",
+    "short seller"
+   ],
+   "explanation": "Betting that an asset's price will fall: sell borrowed shares now, buy them back cheaper later, keep the difference."
+  },
+  {
+   "concept": "hedge fund",
+   "aliases": [
+    "hedge funds",
+    "hedge fund manager"
+   ],
+   "explanation": "A private investment fund for wealthy clients that uses aggressive strategies, including borrowing and betting against assets."
+  },
+  {
+   "concept": "collateralized debt obligation",
+   "aliases": [
+    "cdo",
+    "cdos",
+    "collateralized debt obligations"
+   ],
+   "explanation": "A bundle of loans repackaged into tranches and sold to investors. Central to the 2008 financial crisis."
+  },
+  {
+   "concept": "credit default swap",
+   "aliases": [
+    "credit default swaps",
+    "default swap"
+   ],
+   "explanation": "Insurance-like contract paying out if a borrower defaults. Lets investors bet on debt failing without owning it."
+  },
+  {
+   "concept": "subprime mortgage",
+   "aliases": [
+    "subprime",
+    "subprime mortgages",
+    "subprime loans",
+    "subprime lending"
+   ],
+   "explanation": "Home loans given to borrowers with poor credit, at higher interest. Mass defaults on these triggered the 2008 crisis."
+  },
+  {
+   "concept": "leverage",
+   "aliases": [
+    "leveraged",
+    "highly leveraged",
+    "leverage ratio",
+    "over-leveraged",
+    "overleveraged"
+   ],
+   "explanation": "Using borrowed money to amplify an investment. Multiplies gains, and losses, relative to the cash actually put in.",
+   "match_name": false
+  },
+  {
+   "concept": "margin call",
+   "aliases": [
+    "margin calls",
+    "called in the margin"
+   ],
+   "explanation": "A broker's demand for more cash when a leveraged position loses value. Failing to pay forces a sale at a loss."
+  },
+  {
+   "concept": "quantitative easing",
+   "aliases": [
+    "qe",
+    "quantitative easing program"
+   ],
+   "explanation": "A central bank creating money to buy bonds, pushing interest rates down and cash into the economy."
+  },
+  {
+   "concept": "derivative",
+   "aliases": [
+    "derivatives",
+    "derivatives market",
+    "financial derivatives"
+   ],
+   "explanation": "A contract whose value depends on another asset, such as a stock, bond or commodity. Options and futures are examples."
+  },
+  {
+   "concept": "liquidity",
+   "aliases": [
+    "liquidity crisis",
+    "liquidity crunch",
+    "illiquid",
+    "liquidity problem"
+   ],
+   "explanation": "How easily assets can be turned into cash. A liquidity crisis means nobody can sell fast enough to pay what they owe."
+  },
+  {
+   "concept": "bailout",
+   "aliases": [
+    "bailouts",
+    "bailed out",
+    "government bailout",
+    "bank bailout"
+   ],
+   "explanation": "Government or outside money rescuing a failing company or bank to stop its collapse from spreading."
+  },
+  {
+   "concept": "initial public offering",
+   "aliases": [
+    "ipo",
+    "ipos",
+    "going public",
+    "take the company public"
+   ],
+   "explanation": "The first sale of a company's shares to the public on a stock exchange."
+  },
+  {
+   "concept": "shell company",
+   "aliases": [
+    "shell companies",
+    "shell corporation",
+    "shell corp"
+   ],
+   "explanation": "A company with no real operations, often used to hold assets, hide ownership or move money."
+  },
+  {
+   "concept": "insider trading",
+   "aliases": [
+    "trading on inside information",
+    "insider information"
+   ],
+   "explanation": "Buying or selling shares using confidential company information. Illegal in most markets."
+  },
+  {
+   "concept": "ponzi scheme",
+   "aliases": [
+    "ponzi",
+    "ponzi schemes"
+   ],
+   "explanation": "A fraud that pays early investors with money from new investors, collapsing when recruitment slows."
+  },
+  {
+   "concept": "money laundering",
+   "aliases": [
+    "laundering money",
+    "launder the money",
+    "laundered",
+    "laundering"
+   ],
+   "explanation": "Disguising illegally obtained money as legitimate income by passing it through businesses or accounts."
+  },
+  {
+   "concept": "the fed",
+   "aliases": [
+    "federal reserve",
+    "fed chairman",
+    "fed chair",
+    "the federal reserve"
+   ],
+   "explanation": "The central bank of the United States. Sets interest rates and controls the money supply."
+  },
+  {
+   "concept": "bear market",
+   "aliases": [
+    "bear markets",
+    "bearish"
+   ],
+   "explanation": "A prolonged period of falling prices, usually a 20 percent or greater drop, with widespread pessimism."
+  },
+  {
+   "concept": "bull market",
+   "aliases": [
+    "bull markets",
+    "bullish"
+   ],
+   "explanation": "A prolonged period of rising prices and investor optimism."
+  },
+  {
+   "concept": "arbitrage",
+   "aliases": [
+    "arbitrage opportunity",
+    "arbitrageur"
+   ],
+   "explanation": "Profiting from price differences for the same asset in different markets by buying cheap and selling dear at once."
+  },
+  {
+   "concept": "venture capital",
+   "aliases": [
+    "vc",
+    "vcs",
+    "venture capitalist",
+    "venture capitalists",
+    "vc funding"
+   ],
+   "explanation": "Investment in young companies in exchange for a share of ownership, betting that a few will grow huge."
+  },
+  {
+   "concept": "hostile takeover",
+   "aliases": [
+    "hostile takeovers",
+    "hostile bid"
+   ],
+   "explanation": "Buying control of a company against the wishes of its management, usually by going straight to shareholders."
+  },
+  {
+   "concept": "stock buyback",
+   "aliases": [
+    "buyback",
+    "buybacks",
+    "share buyback",
+    "repurchase shares"
+   ],
+   "explanation": "A company buying its own shares from the market, reducing the count and often lifting the price."
+  },
+  {
+   "concept": "inflation",
+   "aliases": [
+    "hyperinflation",
+    "inflation rate",
+    "inflationary"
+   ],
+   "explanation": "A general rise in prices that reduces what each unit of money can buy."
+  },
+  {
+   "concept": "recession",
+   "aliases": [
+    "recessions",
+    "economic recession",
+    "in a recession"
+   ],
+   "explanation": "A significant, widespread decline in economic activity lasting months, typically marked by job losses."
+  },
+  {
+   "concept": "cryptocurrency",
+   "aliases": [
+    "crypto",
+    "cryptocurrencies",
+    "crypto market"
+   ],
+   "explanation": "Digital money secured by cryptography and recorded on a shared ledger rather than issued by a central bank."
+  },
+  {
+   "concept": "escrow",
+   "aliases": [
+    "in escrow",
+    "escrow account"
+   ],
+   "explanation": "Money held by a neutral third party until both sides of a deal have met their obligations."
+  },
+  {
+   "concept": "gross domestic product",
+   "aliases": [
+    "gdp",
+    "gdp growth"
+   ],
+   "explanation": "The total value of everything a country produces in a year. The standard measure of an economy's size."
+  }
+ ]
+}

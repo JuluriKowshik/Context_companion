@@ -1,0 +1,240 @@
+{
+ "domain": "science_technology",
+ "category": "scientific",
+ "concepts": [
+  {
+   "concept": "quantum entanglement",
+   "aliases": [
+    "entangled particles",
+    "entangled"
+   ],
+   "explanation": "Two particles linked so that measuring one instantly determines the other's state, however far apart."
+  },
+  {
+   "concept": "quantum superposition",
+   "aliases": [
+    "superposition of states"
+   ],
+   "explanation": "A quantum system existing in several states at once until it is measured."
+  },
+  {
+   "concept": "wave function collapse",
+   "aliases": [
+    "wave function",
+    "wavefunction",
+    "collapse of the wave function"
+   ],
+   "explanation": "The wave function describes all possible states of a particle; measuring it collapses them to one outcome."
+  },
+  {
+   "concept": "uncertainty principle",
+   "aliases": [
+    "heisenberg uncertainty principle",
+    "heisenberg's uncertainty principle",
+    "heisenberg principle"
+   ],
+   "explanation": "You cannot know both a particle's exact position and momentum at once. Precision in one blurs the other."
+  },
+  {
+   "concept": "schrodinger's cat",
+   "aliases": [
+    "schrödinger's cat",
+    "schrodingers cat",
+    "schrodinger cat"
+   ],
+   "explanation": "Thought experiment: a cat both alive and dead until observed, illustrating how odd quantum superposition is."
+  },
+  {
+   "concept": "general relativity",
+   "aliases": [
+    "theory of relativity",
+    "einstein's relativity"
+   ],
+   "explanation": "Einstein's theory that gravity is the bending of space and time by mass and energy."
+  },
+  {
+   "concept": "entropy",
+   "aliases": [
+    "entropy increases",
+    "high entropy"
+   ],
+   "explanation": "A measure of disorder. It always increases in a closed system, which is why time seems to run one way."
+  },
+  {
+   "concept": "nuclear fission",
+   "aliases": [
+    "fission reaction",
+    "split the atom"
+   ],
+   "explanation": "Splitting heavy atoms to release energy. Powers nuclear reactors and atomic bombs."
+  },
+  {
+   "concept": "nuclear fusion",
+   "aliases": [
+    "fusion reactor",
+    "fusion energy"
+   ],
+   "explanation": "Fusing light atoms to release energy, as the Sun does. Far harder to sustain than fission."
+  },
+  {
+   "concept": "enriched uranium",
+   "aliases": [
+    "uranium enrichment",
+    "weapons-grade uranium",
+    "centrifuges"
+   ],
+   "explanation": "Uranium processed to raise the share of the fissile isotope. Low levels fuel reactors; high levels make bombs."
+  },
+  {
+   "concept": "event horizon",
+   "aliases": [
+    "black hole event horizon"
+   ],
+   "explanation": "The boundary of a black hole beyond which nothing, not even light, can escape."
+  },
+  {
+   "concept": "dark matter",
+   "aliases": [],
+   "explanation": "Invisible matter detected only by its gravity, making up most of the universe's mass."
+  },
+  {
+   "concept": "dna",
+   "aliases": [
+    "dna evidence",
+    "dna test",
+    "dna sample",
+    "genome",
+    "genetic code"
+   ],
+   "explanation": "The molecule carrying genetic instructions in every cell. Unique enough to identify individuals."
+  },
+  {
+   "concept": "crispr",
+   "aliases": [
+    "crispr gene editing",
+    "gene editing",
+    "cas9"
+   ],
+   "explanation": "A tool for precisely cutting and editing DNA, making genetic changes far cheaper and faster."
+  },
+  {
+   "concept": "natural selection",
+   "aliases": [
+    "survival of the fittest",
+    "darwinian"
+   ],
+   "explanation": "Traits that help survival and reproduction become more common over generations. The engine of evolution."
+  },
+  {
+   "concept": "encryption",
+   "aliases": [
+    "encrypted",
+    "end-to-end encryption",
+    "encrypt",
+    "decrypt",
+    "decryption"
+   ],
+   "explanation": "Scrambling data so only someone with the right key can read it."
+  },
+  {
+   "concept": "algorithm",
+   "aliases": [
+    "algorithms",
+    "the algorithm",
+    "algorithmic"
+   ],
+   "explanation": "A step-by-step set of rules a computer follows to solve a problem or make a decision."
+  },
+  {
+   "concept": "machine learning",
+   "aliases": [
+    "neural network",
+    "neural networks",
+    "deep learning",
+    "trained the model"
+   ],
+   "explanation": "Software that learns patterns from data rather than following hand-written rules."
+  },
+  {
+   "concept": "large language model",
+   "aliases": [
+    "llm",
+    "llms",
+    "language model",
+    "generative ai"
+   ],
+   "explanation": "An AI trained on vast text to predict and generate language. The technology behind chatbots."
+  },
+  {
+   "concept": "blockchain",
+   "aliases": [
+    "the blockchain",
+    "distributed ledger"
+   ],
+   "explanation": "A shared, tamper-resistant record of transactions copied across many computers."
+  },
+  {
+   "concept": "quantum computing",
+   "aliases": [
+    "quantum computer",
+    "quantum computers",
+    "qubit",
+    "qubits"
+   ],
+   "explanation": "Computers using quantum states to explore many possibilities at once, potentially cracking today's encryption."
+  },
+  {
+   "concept": "zero-day exploit",
+   "aliases": [
+    "zero day",
+    "zero-day",
+    "zero day vulnerability"
+   ],
+   "explanation": "A security flaw unknown to the software maker, so no fix exists yet when attackers use it."
+  },
+  {
+   "concept": "ransomware",
+   "aliases": [
+    "ransomware attack"
+   ],
+   "explanation": "Malware that locks a victim's files and demands payment to unlock them."
+  },
+  {
+   "concept": "the cloud",
+   "aliases": [
+    "cloud computing",
+    "in the cloud",
+    "cloud servers"
+   ],
+   "explanation": "Computing and storage rented from remote data centres over the internet instead of owned hardware."
+  },
+  {
+   "concept": "semiconductor",
+   "aliases": [
+    "semiconductors",
+    "microchips",
+    "chip shortage",
+    "chip fabs"
+   ],
+   "explanation": "The material and chips at the heart of all electronics. Their supply chain is a major geopolitical issue."
+  },
+  {
+   "concept": "carbon footprint",
+   "aliases": [
+    "carbon emissions",
+    "carbon neutral",
+    "net zero"
+   ],
+   "explanation": "The total greenhouse gas emitted by a person, product or activity."
+  },
+  {
+   "concept": "placebo effect",
+   "aliases": [
+    "placebo",
+    "placebos",
+    "sugar pill"
+   ],
+   "explanation": "Improvement caused by believing a treatment works, even when it has no active ingredient."
+  }
+ ]
+}

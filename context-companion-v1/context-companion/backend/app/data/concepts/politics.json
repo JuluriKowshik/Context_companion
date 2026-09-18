@@ -1,0 +1,176 @@
+{
+ "domain": "politics",
+ "category": "political",
+ "concepts": [
+  {
+   "concept": "filibuster",
+   "aliases": [
+    "filibustering",
+    "filibustered",
+    "filibusters"
+   ],
+   "explanation": "Talking or stalling endlessly in the US Senate to block a vote. Ending one takes 60 of 100 senators."
+  },
+  {
+   "concept": "impeachment",
+   "aliases": [
+    "impeach",
+    "impeached",
+    "articles of impeachment"
+   ],
+   "explanation": "Formal charges against an official by a legislature. It is the accusation, not removal; a trial follows."
+  },
+  {
+   "concept": "gerrymandering",
+   "aliases": [
+    "gerrymander",
+    "gerrymandered"
+   ],
+   "explanation": "Drawing voting district boundaries to favour one party."
+  },
+  {
+   "concept": "lobbying",
+   "aliases": [
+    "lobbyist",
+    "lobbyists",
+    "lobbied"
+   ],
+   "explanation": "Paid efforts to influence politicians' decisions on behalf of a company, industry or cause."
+  },
+  {
+   "concept": "executive order",
+   "aliases": [
+    "executive orders",
+    "signed an executive order"
+   ],
+   "explanation": "A directive from the US president that has the force of law without a vote in Congress."
+  },
+  {
+   "concept": "veto",
+   "aliases": [
+    "vetoed",
+    "veto power",
+    "presidential veto"
+   ],
+   "explanation": "The power to reject a law passed by the legislature."
+  },
+  {
+   "concept": "sanctions",
+   "aliases": [
+    "economic sanctions",
+    "sanctioned",
+    "impose sanctions"
+   ],
+   "explanation": "Penalties such as trade bans or frozen assets used to pressure a country or person without military force."
+  },
+  {
+   "concept": "coalition government",
+   "aliases": [
+    "form a coalition",
+    "coalition partners"
+   ],
+   "explanation": "A government formed by several parties sharing power because none won a majority alone."
+  },
+  {
+   "concept": "referendum",
+   "aliases": [
+    "referendums",
+    "referenda",
+    "put to a referendum"
+   ],
+   "explanation": "A direct public vote on a single question rather than on candidates."
+  },
+  {
+   "concept": "electoral college",
+   "aliases": [
+    "electoral votes",
+    "electoral vote"
+   ],
+   "explanation": "The US system where states, not the national popular vote, decide the president through allocated electors."
+  },
+  {
+   "concept": "caucus",
+   "aliases": [
+    "caucuses",
+    "party caucus"
+   ],
+   "explanation": "A meeting of party members to choose candidates or set policy. In some US states, it replaces a primary vote."
+  },
+  {
+   "concept": "primary election",
+   "aliases": [
+    "primary vote"
+   ],
+   "explanation": "A vote to choose which candidate a party will put forward for the main election."
+  },
+  {
+   "concept": "whistleblower",
+   "aliases": [
+    "whistleblowers",
+    "whistle-blower",
+    "blew the whistle",
+    "whistleblowing"
+   ],
+   "explanation": "Someone who exposes wrongdoing inside an organisation, often at personal risk."
+  },
+  {
+   "concept": "plausible deniability",
+   "aliases": [
+    "deniability",
+    "deniable"
+   ],
+   "explanation": "Arranging things so a leader can credibly claim not to have known about an action."
+  },
+  {
+   "concept": "vote of no confidence",
+   "aliases": [
+    "no confidence vote",
+    "confidence vote",
+    "no-confidence motion"
+   ],
+   "explanation": "A parliamentary vote that, if lost, forces the government or leader to resign."
+  },
+  {
+   "concept": "authoritarianism",
+   "aliases": [
+    "authoritarian",
+    "authoritarian regime"
+   ],
+   "explanation": "Rule by a leader or small group with strong central power and limited political freedom."
+  },
+  {
+   "concept": "cabinet",
+   "aliases": [
+    "cabinet meeting",
+    "cabinet minister",
+    "cabinet ministers"
+   ],
+   "explanation": "The senior group of ministers or secretaries who run government departments and advise the leader.",
+   "match_name": false
+  },
+  {
+   "concept": "attorney general",
+   "aliases": [
+    "the attorney general"
+   ],
+   "explanation": "The government's chief lawyer and, in the US, head of the Justice Department."
+  },
+  {
+   "concept": "special counsel",
+   "aliases": [
+    "special prosecutor",
+    "independent counsel"
+   ],
+   "explanation": "A prosecutor appointed from outside normal channels to investigate a case with a conflict of interest."
+  },
+  {
+   "concept": "the united nations",
+   "aliases": [
+    "un security council",
+    "security council",
+    "un resolution"
+   ],
+   "explanation": "The international body where countries negotiate; its Security Council can authorise sanctions or force."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <body>
+    <div id="movie_player">
+      <video class="html5-main-video" controls></video>
+    </div>
+    <script>
+      const video = document.querySelector('video');
+      Object.defineProperty(video, 'currentTime', {
+        get() { return this._time || 0; },
+        set(v) { this._time = Number(v); },
+        configurable: true,
+      });
+      window.ytInitialPlayerResponse = {
+        captions: {
+          playerCaptionsTracklistRenderer: {
+            captionTracks: [{ languageCode: 'en', baseUrl: 'http://127.0.0.1:8000/track?fmt=json3' }]
+          }
+        }
+      };
+      window.addEventListener('load', () => {
+        window.dispatchEvent(new MessageEvent('message', { data: { __cc: true, type: 'REQUEST_EMBEDDED_CAPTIONS' } }));
+      });
+      setInterval(() => {
+        const v = document.querySelector('video');
+        if (!v || !('currentTime' in v)) return;
+        v.currentTime = (v.currentTime || 0) + 0.1;
+      }, 1000);
+    </script>
+  </body>
+</html>

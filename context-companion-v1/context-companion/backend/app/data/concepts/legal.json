@@ -1,0 +1,231 @@
+{
+ "domain": "legal",
+ "category": "legal",
+ "concepts": [
+  {
+   "concept": "fifth amendment",
+   "aliases": [
+    "the fifth",
+    "invoking the fifth",
+    "plead the fifth",
+    "pleading the fifth",
+    "take the fifth",
+    "invoke the fifth"
+   ],
+   "explanation": "US constitutional right not to testify against yourself. Invoking it means refusing to answer to avoid self-incrimination."
+  },
+  {
+   "concept": "miranda rights",
+   "aliases": [
+    "mirandized",
+    "read him his rights",
+    "read her rights",
+    "you have the right to remain silent"
+   ],
+   "explanation": "The warning US police must give on arrest: the right to silence and to a lawyer. Statements without it may be thrown out."
+  },
+  {
+   "concept": "subpoena",
+   "aliases": [
+    "subpoenas",
+    "subpoenaed",
+    "under subpoena"
+   ],
+   "explanation": "A court order compelling someone to testify or hand over documents. Ignoring it is contempt of court."
+  },
+  {
+   "concept": "indictment",
+   "aliases": [
+    "indicted",
+    "indictments",
+    "grand jury indictment"
+   ],
+   "explanation": "A formal charge that there is enough evidence to put someone on trial for a serious crime."
+  },
+  {
+   "concept": "grand jury",
+   "aliases": [
+    "grand juries",
+    "before the grand jury"
+   ],
+   "explanation": "A group of citizens who hear prosecution evidence in secret and decide whether to charge someone."
+  },
+  {
+   "concept": "plea bargain",
+   "aliases": [
+    "plea deal",
+    "plea bargains",
+    "cop a plea",
+    "take a plea",
+    "plead out"
+   ],
+   "explanation": "Pleading guilty to a lesser charge or for a lighter sentence instead of risking a trial."
+  },
+  {
+   "concept": "habeas corpus",
+   "aliases": [
+    "writ of habeas corpus",
+    "habeas"
+   ],
+   "explanation": "A legal demand that a detained person be brought before a court so the detention can be justified."
+  },
+  {
+   "concept": "perjury",
+   "aliases": [
+    "perjured",
+    "committing perjury",
+    "perjure"
+   ],
+   "explanation": "Lying under oath. A crime in itself, separate from whatever the lie was about."
+  },
+  {
+   "concept": "contempt of court",
+   "aliases": [
+    "held in contempt",
+    "in contempt",
+    "contempt charge"
+   ],
+   "explanation": "Disobeying or disrespecting a court, punishable by fines or jail at the judge's discretion."
+  },
+  {
+   "concept": "injunction",
+   "aliases": [
+    "injunctions",
+    "restraining order",
+    "court injunction"
+   ],
+   "explanation": "A court order requiring someone to do, or stop doing, a specific thing."
+  },
+  {
+   "concept": "deposition",
+   "aliases": [
+    "depositions",
+    "being deposed"
+   ],
+   "explanation": "Sworn out-of-court testimony recorded before trial, used to gather evidence and lock in a witness's story."
+  },
+  {
+   "concept": "affidavit",
+   "aliases": [
+    "affidavits",
+    "sworn affidavit"
+   ],
+   "explanation": "A written statement sworn to be true, used as evidence."
+  },
+  {
+   "concept": "probable cause",
+   "aliases": [
+    "without probable cause",
+    "had probable cause"
+   ],
+   "explanation": "The reasonable grounds police need before making an arrest or getting a search warrant."
+  },
+  {
+   "concept": "double jeopardy",
+   "aliases": [
+    "tried twice for the same crime"
+   ],
+   "explanation": "The rule that you cannot be tried twice for the same offence after an acquittal."
+  },
+  {
+   "concept": "statute of limitations",
+   "aliases": [
+    "statute of limitations expired",
+    "limitations period"
+   ],
+   "explanation": "The deadline after which a crime or claim can no longer be prosecuted or sued over."
+  },
+  {
+   "concept": "class action",
+   "aliases": [
+    "class action lawsuit",
+    "class actions",
+    "class-action"
+   ],
+   "explanation": "One lawsuit brought on behalf of a large group of people harmed in the same way."
+  },
+  {
+   "concept": "attorney-client privilege",
+   "aliases": [
+    "attorney client privilege",
+    "privileged communication",
+    "lawyer-client privilege"
+   ],
+   "explanation": "The rule keeping conversations between a lawyer and client confidential and out of court."
+  },
+  {
+   "concept": "arraignment",
+   "aliases": [
+    "arraigned",
+    "arraignments"
+   ],
+   "explanation": "The first court appearance where charges are read and the accused pleads guilty or not guilty."
+  },
+  {
+   "concept": "felony",
+   "aliases": [
+    "felonies",
+    "felony charge",
+    "convicted felon"
+   ],
+   "explanation": "A serious crime, typically punishable by more than a year in prison. Less serious crimes are misdemeanours."
+  },
+  {
+   "concept": "acquittal",
+   "aliases": [
+    "acquitted",
+    "acquit"
+   ],
+   "explanation": "A verdict of not guilty. The accused walks free and cannot be retried for that charge."
+  },
+  {
+   "concept": "mistrial",
+   "aliases": [
+    "declared a mistrial",
+    "mistrials"
+   ],
+   "explanation": "A trial cancelled before verdict because of a serious error or a deadlocked jury. It can be held again."
+  },
+  {
+   "concept": "extradition",
+   "aliases": [
+    "extradited",
+    "extradite",
+    "extradition treaty"
+   ],
+   "explanation": "One country handing over a suspect to another country to face charges there."
+  },
+  {
+   "concept": "power of attorney",
+   "aliases": [
+    "poa",
+    "power-of-attorney"
+   ],
+   "explanation": "Legal authority to make decisions on someone else's behalf, such as over money or medical care."
+  },
+  {
+   "concept": "pro bono",
+   "aliases": [
+    "pro-bono",
+    "working pro bono"
+   ],
+   "explanation": "Legal work done free of charge for the public good."
+  },
+  {
+   "concept": "witness protection",
+   "aliases": [
+    "witness protection program",
+    "witsec",
+    "protected witness"
+   ],
+   "explanation": "A government program giving witnesses new identities and locations to keep them safe from retaliation."
+  },
+  {
+   "concept": "eminent domain",
+   "aliases": [
+    "compulsory purchase"
+   ],
+   "explanation": "The government's power to take private property for public use, with compensation to the owner."
+  }
+ ]
+}

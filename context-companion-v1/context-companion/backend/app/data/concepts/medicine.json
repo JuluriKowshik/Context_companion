@@ -1,0 +1,212 @@
+{
+ "domain": "medicine",
+ "category": "medical",
+ "concepts": [
+  {
+   "concept": "cardiac arrest",
+   "aliases": [
+    "went into cardiac arrest",
+    "heart stopped"
+   ],
+   "explanation": "The heart suddenly stops beating. Different from a heart attack, which is a blocked artery."
+  },
+  {
+   "concept": "myocardial infarction",
+   "aliases": [
+    "heart attack"
+   ],
+   "explanation": "A blocked artery starving part of the heart of blood. Commonly called a heart attack."
+  },
+  {
+   "concept": "sepsis",
+   "aliases": [
+    "septic",
+    "septic shock",
+    "blood poisoning"
+   ],
+   "explanation": "A life-threatening overreaction to infection that can shut down organs."
+  },
+  {
+   "concept": "intubation",
+   "aliases": [
+    "intubate",
+    "intubated",
+    "on a ventilator",
+    "ventilator"
+   ],
+   "explanation": "Inserting a tube into the airway so a machine can breathe for the patient."
+  },
+  {
+   "concept": "stat",
+   "aliases": [
+    "i need it stat",
+    "get it stat"
+   ],
+   "explanation": "Medical shorthand for immediately, from the Latin statim.",
+   "match_name": false
+  },
+  {
+   "concept": "code blue",
+   "aliases": [
+    "code blue",
+    "calling a code",
+    "he's coding",
+    "she's coding"
+   ],
+   "explanation": "Hospital alert that a patient's heart or breathing has stopped and resuscitation is needed now."
+  },
+  {
+   "concept": "dnr",
+   "aliases": [
+    "do not resuscitate",
+    "dnr order",
+    "do-not-resuscitate"
+   ],
+   "explanation": "A patient's instruction not to attempt CPR or revival if their heart or breathing stops."
+  },
+  {
+   "concept": "triage",
+   "aliases": [
+    "triaged",
+    "triaging"
+   ],
+   "explanation": "Sorting patients by urgency so the most critical are treated first."
+  },
+  {
+   "concept": "anaphylaxis",
+   "aliases": [
+    "anaphylactic shock",
+    "anaphylactic",
+    "epipen"
+   ],
+   "explanation": "A severe, fast allergic reaction that can close the airway. Treated with adrenaline."
+  },
+  {
+   "concept": "metastasis",
+   "aliases": [
+    "metastatic",
+    "metastasized"
+   ],
+   "explanation": "Cancer spreading from where it started to other parts of the body. Stage four means it has done so."
+  },
+  {
+   "concept": "chemotherapy",
+   "aliases": [
+    "chemo",
+    "on chemo"
+   ],
+   "explanation": "Drugs that kill fast-dividing cells to treat cancer, with side effects on healthy cells too."
+  },
+  {
+   "concept": "biopsy",
+   "aliases": [
+    "biopsies",
+    "biopsied"
+   ],
+   "explanation": "Removing a small tissue sample to examine it for disease, usually cancer."
+  },
+  {
+   "concept": "aneurysm",
+   "aliases": [
+    "aneurysms",
+    "brain aneurysm",
+    "ruptured aneurysm"
+   ],
+   "explanation": "A bulge in a weakened blood vessel wall. If it bursts, bleeding can be fatal within minutes."
+  },
+  {
+   "concept": "stroke",
+   "aliases": [
+    "had a stroke",
+    "having a stroke",
+    "mini stroke"
+   ],
+   "explanation": "Blood supply to part of the brain cut off by a clot or bleed, killing brain cells.",
+   "match_name": false,
+   "block_next": [
+    "of"
+   ]
+  },
+  {
+   "concept": "concussion",
+   "aliases": [
+    "concussed",
+    "concussions"
+   ],
+   "explanation": "A brain injury from a blow to the head causing confusion, headache or memory loss."
+  },
+  {
+   "concept": "pandemic",
+   "aliases": [
+    "pandemics",
+    "epidemic"
+   ],
+   "explanation": "A disease spreading across countries or continents. An epidemic is regional; a pandemic is global."
+  },
+  {
+   "concept": "vaccine",
+   "aliases": [
+    "vaccinated",
+    "vaccination",
+    "mrna vaccine",
+    "booster shot"
+   ],
+   "explanation": "A preparation training the immune system to recognise a pathogen without causing the disease."
+  },
+  {
+   "concept": "antibiotic resistance",
+   "aliases": [
+    "superbug",
+    "superbugs",
+    "drug-resistant",
+    "antibiotic-resistant"
+   ],
+   "explanation": "Bacteria evolving to survive antibiotics, making common infections harder to treat."
+  },
+  {
+   "concept": "opioid",
+   "aliases": [
+    "opioids",
+    "opioid crisis",
+    "opioid epidemic"
+   ],
+   "explanation": "Powerful painkillers including morphine and fentanyl. Highly addictive; overdose stops breathing."
+  },
+  {
+   "concept": "hipaa",
+   "aliases": [
+    "hipaa violation",
+    "patient confidentiality"
+   ],
+   "explanation": "US law protecting the privacy of medical records."
+  },
+  {
+   "concept": "comatose",
+   "aliases": [
+    "in a coma",
+    "induced coma",
+    "medically induced coma"
+   ],
+   "explanation": "Prolonged unconsciousness. Doctors sometimes induce it deliberately to let the brain heal."
+  },
+  {
+   "concept": "psychosis",
+   "aliases": [
+    "psychotic",
+    "psychotic episode",
+    "psychotic break"
+   ],
+   "explanation": "Losing contact with reality, such as hallucinations or fixed false beliefs."
+  },
+  {
+   "concept": "placebo-controlled trial",
+   "aliases": [
+    "clinical trial",
+    "clinical trials",
+    "double blind",
+    "double-blind"
+   ],
+   "explanation": "A study where some patients get a dummy treatment and neither they nor the doctors know who, to test a drug fairly."
+  }
+ ]
+}

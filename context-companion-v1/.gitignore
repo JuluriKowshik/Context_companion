@@ -1,0 +1,24 @@
+# Local Python environments
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+**/.pytest_cache/
+pytest-cache-files-*/
+**/pytest-cache-files-*/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Local test/runtime artifacts
+.test-data/
+*.db
+**/*.db

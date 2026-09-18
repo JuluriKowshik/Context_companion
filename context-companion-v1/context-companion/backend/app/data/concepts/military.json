@@ -1,0 +1,197 @@
+{
+ "domain": "military",
+ "category": "military",
+ "concepts": [
+  {
+   "concept": "martial law",
+   "aliases": [
+    "under martial law",
+    "declare martial law",
+    "declared martial law"
+   ],
+   "explanation": "Military control replacing normal civilian government and courts, usually during an emergency or coup."
+  },
+  {
+   "concept": "proxy war",
+   "aliases": [
+    "proxy wars",
+    "proxy conflict",
+    "fighting by proxy"
+   ],
+   "explanation": "A conflict where major powers back opposing sides instead of fighting each other directly."
+  },
+  {
+   "concept": "rules of engagement",
+   "aliases": [
+    "engagement rules"
+   ],
+   "explanation": "Orders defining when and how troops may use force."
+  },
+  {
+   "concept": "collateral damage",
+   "aliases": [],
+   "explanation": "Unintended harm to civilians or property during a military operation."
+  },
+  {
+   "concept": "coup",
+   "aliases": [
+    "coup d'etat",
+    "coup d'état",
+    "military coup",
+    "staged a coup"
+   ],
+   "explanation": "A sudden, often violent, seizure of government power, usually by the military."
+  },
+  {
+   "concept": "insurgency",
+   "aliases": [
+    "insurgents",
+    "insurgent",
+    "counterinsurgency",
+    "counter-insurgency"
+   ],
+   "explanation": "An armed rebellion against a government by irregular fighters, often using guerrilla tactics."
+  },
+  {
+   "concept": "mutually assured destruction",
+   "aliases": [
+    "mad doctrine",
+    "assured destruction"
+   ],
+   "explanation": "Cold War logic: neither side launches nuclear weapons because both would be destroyed in retaliation."
+  },
+  {
+   "concept": "demilitarized zone",
+   "aliases": [
+    "dmz",
+    "the dmz"
+   ],
+   "explanation": "A border strip where military forces are banned by agreement, such as between North and South Korea."
+  },
+  {
+   "concept": "black ops",
+   "aliases": [
+    "black operation",
+    "black operations",
+    "black op"
+   ],
+   "explanation": "Covert missions that a government will not acknowledge, often outside normal legal channels."
+  },
+  {
+   "concept": "friendly fire",
+   "aliases": [
+    "blue on blue",
+    "fratricide"
+   ],
+   "explanation": "Accidentally attacking your own or allied forces."
+  },
+  {
+   "concept": "court martial",
+   "aliases": [
+    "court-martial",
+    "court-martialed",
+    "court martialed"
+   ],
+   "explanation": "A military court trying members of the armed forces for breaches of military law."
+  },
+  {
+   "concept": "dishonorable discharge",
+   "aliases": [
+    "dishonorably discharged",
+    "dishonourable discharge"
+   ],
+   "explanation": "The harshest way to be expelled from the military, stripping benefits and carrying lasting stigma."
+  },
+  {
+   "concept": "geneva conventions",
+   "aliases": [
+    "geneva convention",
+    "violates the geneva convention"
+   ],
+   "explanation": "International treaties setting rules for treating prisoners, the wounded and civilians in war."
+  },
+  {
+   "concept": "no-fly zone",
+   "aliases": [
+    "no fly zone",
+    "no-fly zones"
+   ],
+   "explanation": "Airspace where aircraft are banned, enforced by threat of being shot down."
+  },
+  {
+   "concept": "scorched earth",
+   "aliases": [
+    "scorched-earth",
+    "scorched earth policy"
+   ],
+   "explanation": "Destroying everything useful while retreating so the enemy cannot use it."
+  },
+  {
+   "concept": "sleeper agent",
+   "aliases": [
+    "sleeper cell",
+    "sleeper agents",
+    "sleeper cells"
+   ],
+   "explanation": "A spy or cell living normally in a target country, inactive until ordered to act."
+  },
+  {
+   "concept": "extraction",
+   "aliases": [
+    "extraction point",
+    "exfil",
+    "exfiltration"
+   ],
+   "explanation": "Getting personnel out of a hostile area, often by helicopter or covert route.",
+   "match_name": false
+  },
+  {
+   "concept": "recon",
+   "aliases": [
+    "reconnaissance",
+    "recon mission",
+    "recce"
+   ],
+   "explanation": "Scouting enemy positions or terrain to gather information before acting."
+  },
+  {
+   "concept": "sortie",
+   "aliases": [
+    "sorties"
+   ],
+   "explanation": "One mission flown by one aircraft."
+  },
+  {
+   "concept": "battalion",
+   "aliases": [
+    "battalions"
+   ],
+   "explanation": "A military unit of roughly 300 to 1,000 soldiers, usually commanded by a lieutenant colonel."
+  },
+  {
+   "concept": "armistice",
+   "aliases": [
+    "armistice agreement",
+    "signed an armistice"
+   ],
+   "explanation": "An agreement to stop fighting. Not a peace treaty; the war is paused, not formally ended."
+  },
+  {
+   "concept": "embargo",
+   "aliases": [
+    "arms embargo",
+    "trade embargo",
+    "embargoed"
+   ],
+   "explanation": "An official ban on trade with a country, used as pressure short of war."
+  },
+  {
+   "concept": "the pentagon",
+   "aliases": [
+    "pentagon officials",
+    "pentagon"
+   ],
+   "explanation": "Headquarters of the US Department of Defense. Often used to mean the US military leadership itself."
+  }
+ ]
+}

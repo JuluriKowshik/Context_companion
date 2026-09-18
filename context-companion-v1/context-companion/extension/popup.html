@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  body { width: 260px; margin: 0; padding: 14px 16px 16px; font: 13px/1.45 Roboto, Arial, sans-serif; color: #1a1a1a; background: #fafafa; }
+  h1 { font-size: 14px; margin: 0 0 12px; font-weight: 600; }
+  .row { display: flex; align-items: center; justify-content: space-between; }
+  .switch { position: relative; width: 40px; height: 22px; }
+  .switch input { opacity: 0; width: 0; height: 0; }
+  .slider { position: absolute; inset: 0; background: #ccc; border-radius: 11px; transition: 150ms; cursor: pointer; }
+  .slider:before { content: ""; position: absolute; width: 18px; height: 18px; left: 2px; top: 2px; background: #fff; border-radius: 50%; transition: 150ms; }
+  input:checked + .slider { background: #2e8b46; }
+  input:checked + .slider:before { transform: translateX(18px); }
+  label.field { display: block; margin: 14px 0 4px; color: #444; }
+  input[type=text] { width: 100%; box-sizing: border-box; padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px; font: inherit; }
+  .hint { color: #777; font-size: 12px; margin-top: 6px; }
+  .status { margin-top: 12px; padding: 7px 9px; border-radius: 4px; font-size: 12px; background: #eee; color: #444; }
+  .status.ok { background: #e6f4ea; color: #1e6b32; }
+  .status.bad { background: #fdecea; color: #9b2c2c; }
+</style>
+</head>
+<body>
+  <h1>Context Companion</h1>
+  <div class="row">
+    <span id="stateLabel">Embedded-caption explanations are on</span>
+    <label class="switch"><input id="enabled" type="checkbox" /><span class="slider"></span></label>
+  </div>
+  <div class="hint">When a video provides an embedded caption track, Context Companion reads it automatically. Captions do not need to be displayed on the video.</div>
+
+  <label class="field" for="backendUrl">Backend URL</label>
+  <input id="backendUrl" type="text" spellcheck="false" />
+
+  <div id="status" class="status">Checking backend…</div>
+  <script src="popup.js"></script>
+</body>
+</html>

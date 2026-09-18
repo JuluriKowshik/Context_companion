@@ -1,0 +1,278 @@
+{
+ "domain": "idioms",
+ "category": "idiom",
+ "concepts": [
+  {
+   "concept": "cross the rubicon",
+   "aliases": [
+    "crossing the rubicon",
+    "crossed the rubicon",
+    "the rubicon"
+   ],
+   "explanation": "Passing a point of no return. From Caesar crossing the Rubicon river to start a civil war."
+  },
+  {
+   "concept": "pyrrhic victory",
+   "aliases": [
+    "pyrrhic"
+   ],
+   "explanation": "A win so costly it amounts to a defeat."
+  },
+  {
+   "concept": "achilles heel",
+   "aliases": [
+    "achilles' heel",
+    "achilles hill"
+   ],
+   "explanation": "A single fatal weakness in someone otherwise strong."
+  },
+  {
+   "concept": "trojan horse",
+   "aliases": [
+    "a trojan horse"
+   ],
+   "explanation": "Something harmful disguised as a gift or benefit to get inside defences."
+  },
+  {
+   "concept": "pandora's box",
+   "aliases": [
+    "open pandora's box",
+    "pandoras box",
+    "opened pandora's box"
+   ],
+   "explanation": "An action that unleashes many problems that cannot be undone."
+  },
+  {
+   "concept": "sword of damocles",
+   "aliases": [
+    "damocles"
+   ],
+   "explanation": "Constant danger hanging over someone in a position of power."
+  },
+  {
+   "concept": "catch-22",
+   "aliases": [
+    "catch 22",
+    "a catch-22"
+   ],
+   "explanation": "A no-win situation where the rules trap you whatever you do. From Joseph Heller's novel."
+  },
+  {
+   "concept": "red herring",
+   "aliases": [
+    "a red herring",
+    "red herrings"
+   ],
+   "explanation": "A misleading clue that distracts from the real issue."
+  },
+  {
+   "concept": "smoking gun",
+   "aliases": [
+    "the smoking gun",
+    "a smoking gun"
+   ],
+   "explanation": "Conclusive proof of guilt."
+  },
+  {
+   "concept": "scapegoat",
+   "aliases": [
+    "scapegoated",
+    "made a scapegoat",
+    "fall guy",
+    "the fall guy"
+   ],
+   "explanation": "Someone unfairly blamed to protect others."
+  },
+  {
+   "concept": "hail mary",
+   "aliases": [
+    "a hail mary",
+    "hail mary pass"
+   ],
+   "explanation": "A desperate last attempt with little chance of success. From American football.",
+   "match_name": false
+  },
+  {
+   "concept": "mexican standoff",
+   "aliases": [
+    "a mexican standoff"
+   ],
+   "explanation": "A confrontation where no side can act without being destroyed, so nobody moves."
+  },
+  {
+   "concept": "kangaroo court",
+   "aliases": [
+    "a kangaroo court"
+   ],
+   "explanation": "A sham trial with the verdict decided in advance."
+  },
+  {
+   "concept": "the elephant in the room",
+   "aliases": [
+    "elephant in the room"
+   ],
+   "explanation": "An obvious problem everyone is avoiding mentioning."
+  },
+  {
+   "concept": "quid pro quo",
+   "aliases": [
+    "quid-pro-quo"
+   ],
+   "explanation": "Something given in exchange for something else. A favour for a favour."
+  },
+  {
+   "concept": "carte blanche",
+   "aliases": [
+    "carte-blanche"
+   ],
+   "explanation": "Complete freedom to act as one wishes."
+  },
+  {
+   "concept": "coup de grace",
+   "aliases": [
+    "coup de grâce"
+   ],
+   "explanation": "The final blow that ends something already dying."
+  },
+  {
+   "concept": "persona non grata",
+   "aliases": [
+    "non grata"
+   ],
+   "explanation": "Someone unwelcome, officially or socially. Used for expelled diplomats."
+  },
+  {
+   "concept": "deus ex machina",
+   "aliases": [],
+   "explanation": "An unlikely event that conveniently solves a story's problem out of nowhere."
+  },
+  {
+   "concept": "schadenfreude",
+   "aliases": [],
+   "explanation": "Pleasure taken in someone else's misfortune."
+  },
+  {
+   "concept": "zeitgeist",
+   "aliases": [
+    "the zeitgeist"
+   ],
+   "explanation": "The defining mood or spirit of a particular era."
+  },
+  {
+   "concept": "faustian bargain",
+   "aliases": [
+    "faustian",
+    "deal with the devil",
+    "sold his soul",
+    "sold her soul"
+   ],
+   "explanation": "Trading your values or future for immediate gain. From Faust selling his soul."
+  },
+  {
+   "concept": "gordian knot",
+   "aliases": [
+    "cut the gordian knot"
+   ],
+   "explanation": "An impossibly tangled problem, solved by a bold stroke rather than patience."
+  },
+  {
+   "concept": "sisyphean",
+   "aliases": [
+    "sisyphus",
+    "sisyphean task"
+   ],
+   "explanation": "Endless, futile labour. From Sisyphus, condemned to roll a boulder uphill forever."
+  },
+  {
+   "concept": "kafkaesque",
+   "aliases": [
+    "kafka-esque"
+   ],
+   "explanation": "Nightmarishly complex, illogical and oppressive, especially bureaucracy."
+  },
+  {
+   "concept": "orwellian",
+   "aliases": [
+    "big brother is watching",
+    "thought police",
+    "doublespeak"
+   ],
+   "explanation": "Totalitarian surveillance and control of thought and language, from George Orwell's 1984."
+  },
+  {
+   "concept": "machiavellian",
+   "aliases": [
+    "machiavelli"
+   ],
+   "explanation": "Cunning and ruthless in pursuit of power, from the political writer Machiavelli."
+  },
+  {
+   "concept": "stockholm syndrome",
+   "aliases": [],
+   "explanation": "A captive developing loyalty or affection toward their captor."
+  },
+  {
+   "concept": "occam's razor",
+   "aliases": [
+    "occams razor",
+    "ockham's razor"
+   ],
+   "explanation": "The simplest explanation that fits the facts is usually the right one."
+  },
+  {
+   "concept": "the butterfly effect",
+   "aliases": [
+    "butterfly effect"
+   ],
+   "explanation": "Tiny causes leading to huge, unpredictable consequences."
+  },
+  {
+   "concept": "prisoner's dilemma",
+   "aliases": [
+    "prisoners dilemma"
+   ],
+   "explanation": "A game theory puzzle where two people acting selfishly both end up worse off than if they had cooperated."
+  },
+  {
+   "concept": "game theory",
+   "aliases": [
+    "zero-sum game",
+    "zero sum game",
+    "zero-sum"
+   ],
+   "explanation": "The study of strategic decisions. A zero-sum game is one where one side's gain is exactly the other's loss."
+  },
+  {
+   "concept": "gaslighting",
+   "aliases": [
+    "gaslight",
+    "gaslit",
+    "gaslighted"
+   ],
+   "explanation": "Manipulating someone into doubting their own memory or sanity."
+  },
+  {
+   "concept": "dead man's switch",
+   "aliases": [
+    "dead mans switch",
+    "deadman switch"
+   ],
+   "explanation": "A mechanism that triggers automatically if its operator dies or stops acting. Used as insurance in blackmail plots."
+  },
+  {
+   "concept": "burner phone",
+   "aliases": [
+    "burner phones"
+   ],
+   "explanation": "A cheap prepaid phone used briefly and discarded to avoid being traced."
+  },
+  {
+   "concept": "plant evidence",
+   "aliases": [
+    "planted evidence",
+    "planting evidence"
+   ],
+   "explanation": "Placing fake evidence to make an innocent person look guilty."
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+/* Two elements live inside the YouTube player. Both are small, translucent,
+   and bottom-right. Nothing else on the page is touched. */
+
+/* ---- Companion pill (the ON/OFF control) ---- */
+.cc-pill {
+  position: absolute;
+  right: 16px;
+  bottom: 60px;
+  z-index: 61;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 28px;
+  padding: 0 6px 0 10px;
+  border-radius: 14px;
+  background: rgba(20, 20, 20, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #f1f1f1;
+  font: 12px/1 "YouTube Noto", Roboto, Arial, sans-serif;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.9;
+  transition: opacity 200ms ease;
+}
+.cc-pill:hover { opacity: 1; background: rgba(20, 20, 20, 0.7); }
+
+.cc-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e0453b;
+  transition: background 200ms ease;
+}
+.cc-pill.cc-on .cc-dot { background: #4ec36b; }
+.cc-pill.cc-busy .cc-dot { background: #f2b53a; }
+
+.cc-label { letter-spacing: 0.01em; }
+
+.cc-switch {
+  padding: 3px 8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.14);
+  color: #bdbdbd;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.cc-pill.cc-on .cc-switch { background: #2e8b46; color: #f4fff6; }
+
+/* Follow YouTube: when the player hides its controls, hide the pill too. */
+.ytp-autohide .cc-pill { opacity: 0; pointer-events: none; }
+.ytp-autohide .cc-pill:hover { opacity: 0; }
+
+/* ---- FIFO explanation-card stack ---- */
+.cc-card-stack {
+  position: absolute;
+  right: 16px;
+  bottom: 100px;
+  z-index: 60;
+  width: min(300px, calc(100% - 32px));
+  max-height: min(54vh, 420px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.cc-card {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px 12px 10px;
+  border-radius: 8px;
+  background: rgba(14, 14, 14, 0.62);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #f1f1f1;
+  font-family: "YouTube Noto", Roboto, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+.cc-card.cc-visible { opacity: 1; transform: translateY(0); }
+
+.cc-title { display: block; font-weight: 600; margin-bottom: 2px; }
+.cc-body { color: #e6e6e6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* Theater and fullscreen: player controls are taller. */
+.ytp-fullscreen .cc-pill, .ytp-big-mode .cc-pill { bottom: 80px; height: 32px; font-size: 13px; }
+.ytp-fullscreen .cc-card-stack, .ytp-big-mode .cc-card-stack { bottom: 126px; width: min(380px, calc(100% - 32px)); font-size: 15px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cc-card, .cc-pill, .cc-dot { transition: none; }
+}

@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Context Companion",
+  "version": "0.3.0",
+  "description": "A quiet companion for YouTube. Turn it on once; it explains genuinely useful terms as they are spoken, and stays silent otherwise.",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:8000/*", "http://127.0.0.1:8000/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "http://127.0.0.1:8765/*", "http://localhost:8765/*"],
+      "js": ["page-hook.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://www.youtube.com/*", "http://127.0.0.1:8765/*", "http://localhost:8765/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Context Companion"
+  },
+  "background": { "service_worker": "background.js" },
+  "commands": {
+    "explain-current-subtitle": {
+      "suggested_key": { "default": "Alt+X" },
+      "description": "Explain the current YouTube subtitle"
+    }
+  }
+}
