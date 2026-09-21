@@ -87,4 +87,4 @@ class LearnedCache:
 
     def stats(self) -> dict:
         (count,) = self._conn.execute("SELECT COUNT(*) FROM concepts").fetchone()
-        return {"learned_concepts": count, "path": str(self._path)}
+        return {"learned_concepts": count}

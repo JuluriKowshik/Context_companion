@@ -5,8 +5,7 @@
   "description": "A quiet companion for YouTube. Turn it on once; it explains genuinely useful terms as they are spoken, and stays silent otherwise.",
   "permissions": ["storage"],
   "host_permissions": [
-    "https://www.youtube.com/*",
-    "https://api.yourdomain.com/*"
+    "https://www.youtube.com/*"
   ],
   "content_scripts": [
     {

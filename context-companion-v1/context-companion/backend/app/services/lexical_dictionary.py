@@ -23,9 +23,15 @@ class LexicalEntry:
 
 class LexicalDictionary:
     def __init__(self, path: str, nltk_data_path: str):
+        base_dir = Path(__file__).resolve().parents[2]
         self.path = Path(path)
+        if not self.path.is_absolute():
+            self.path = base_dir / self.path
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        nltk.data.path.insert(0, str(Path(nltk_data_path).resolve()))
+        nltk_path = Path(nltk_data_path)
+        if not nltk_path.is_absolute():
+            nltk_path = base_dir / nltk_path
+        nltk.data.path.insert(0, str(nltk_path.resolve()))
         self._ensure_index()
 
     def _connect(self):

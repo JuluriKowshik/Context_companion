@@ -1,11 +1,21 @@
 """Central configuration, loaded from .env in the working directory."""
+import json
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 APP_DIR = Path(__file__).resolve().parent
+BACKEND_ROOT = APP_DIR.parent
 BUNDLED_CONCEPTS_DIR = APP_DIR / "data" / "concepts"
+
+
+def _resolve_runtime_path(value: str) -> str:
+    path = Path(value).expanduser()
+    if not path.is_absolute():
+        path = BACKEND_ROOT / path
+    return str(path.resolve())
 
 
 class Settings(BaseSettings):
@@ -36,9 +46,9 @@ class Settings(BaseSettings):
     max_candidate_terms_per_cue: int = 3
     max_cards_per_cue: int = 3
 
-    learned_cache_path: str = "data/learned_concepts.db"
-    lexical_dictionary_path: str = "data/wordnet_dictionary.db"
-    nltk_data_path: str = "data/nltk_data"
+    learned_cache_path: str = Field(default_factory=lambda: _resolve_runtime_path("data/learned_concepts.db"))
+    lexical_dictionary_path: str = Field(default_factory=lambda: _resolve_runtime_path("data/wordnet_dictionary.db"))
+    nltk_data_path: str = Field(default_factory=lambda: _resolve_runtime_path("data/nltk_data"))
     session_ttl_seconds: int = 3 * 60 * 60
 
     # Automatic display policy. The extension fetches these from GET /config.
@@ -53,8 +63,41 @@ class Settings(BaseSettings):
     card_lifetime_seconds: float = 5.0
     max_card_queue_size: int = 12
 
-    cors_origins: list[str] = ["*"]
+    cors_origins: list[str] = Field(
+        default_factory=lambda: [
+            "http://127.0.0.1:8000",
+            "http://localhost:8000",
+            "https://www.youtube.com",
+            "https://m.youtube.com",
+        ]
+    )
+    cors_origin_regex: str = r"^(https://(www\.)?youtube\.com|https://m\.youtube\.com|http://127\.0\.0\.1:8000|http://localhost:8000|chrome-extension://.*)$"
     log_level: str = "INFO"
+
+    @field_validator("cors_origins", mode="before")
+    @classmethod
+    def parse_cors_origins(cls, value):
+        if value in (None, ""):
+            return []
+        if isinstance(value, list):
+            return value
+        if isinstance(value, str):
+            stripped = value.strip()
+            if not stripped:
+                return []
+            try:
+                parsed = json.loads(stripped)
+                if isinstance(parsed, list):
+                    return parsed
+            except json.JSONDecodeError:
+                pass
+            return [item.strip() for item in stripped.split(",") if item.strip()]
+        return value
+
+    @field_validator("learned_cache_path", "lexical_dictionary_path", "nltk_data_path")
+    @classmethod
+    def resolve_runtime_paths(cls, value: str) -> str:
+        return _resolve_runtime_path(value)
 
 
 @lru_cache
