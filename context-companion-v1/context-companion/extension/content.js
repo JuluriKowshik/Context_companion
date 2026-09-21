@@ -17,7 +17,7 @@
   // ---------------------------------------------------------------------
   // Embedded caption tracks are processed automatically; captions do not need
   // to be visible in YouTube for this to work.
-  const STORED_DEFAULTS = { companionEnabled: true, settingsVersion: 3, backendUrl: "http://127.0.0.1:8000", recentConcepts: {} };
+  const STORED_DEFAULTS = { companionEnabled: true, settingsVersion: 3, backendUrl: "https://vocablens-p6ah.onrender.com", recentConcepts: {} };
   const POLICY_DEFAULTS = {
     prefetch_window_seconds: 6,
     auto_show_confidence: 0.85,

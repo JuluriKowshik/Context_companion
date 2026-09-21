@@ -1,5 +1,4 @@
-// Local development default. Use the real deployed Render URL only after deployment exists.
-const DEFAULTS = { companionEnabled: true, backendUrl: "http://127.0.0.1:8000" };
+const DEFAULTS = { companionEnabled: true, backendUrl: "https://vocablens-p6ah.onrender.com" };
 const $ = (id) => document.getElementById(id);
 
 async function load() {
