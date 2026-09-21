@@ -49,6 +49,7 @@ class Settings(BaseSettings):
     learned_cache_path: str = Field(default_factory=lambda: _resolve_runtime_path("data/learned_concepts.db"))
     lexical_dictionary_path: str = Field(default_factory=lambda: _resolve_runtime_path("data/wordnet_dictionary.db"))
     nltk_data_path: str = Field(default_factory=lambda: _resolve_runtime_path("data/nltk_data"))
+    lexical_dictionary_build_on_startup: bool = True
     session_ttl_seconds: int = 3 * 60 * 60
 
     # Automatic display policy. The extension fetches these from GET /config.

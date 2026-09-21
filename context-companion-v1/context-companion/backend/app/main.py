@@ -27,7 +27,11 @@ async def lifespan(app: FastAPI):
     client = httpx.AsyncClient(timeout=_settings.llm_timeout_seconds)
     index = ConceptIndex.from_bundled_dir(BUNDLED_CONCEPTS_DIR)
     learned = LearnedCache(_settings.learned_cache_path, index)
-    lexical = LexicalDictionary(_settings.lexical_dictionary_path, _settings.nltk_data_path)
+    lexical = LexicalDictionary(
+        _settings.lexical_dictionary_path,
+        _settings.nltk_data_path,
+        build_on_startup=_settings.lexical_dictionary_build_on_startup,
+    )
     app.state.services = Services(
         settings=_settings,
         index=index,

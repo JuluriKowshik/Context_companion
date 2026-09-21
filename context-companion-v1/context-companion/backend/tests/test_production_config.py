@@ -20,6 +20,11 @@ def test_runtime_paths_are_portable_and_absolute():
     assert any(cfg.learned_cache_path.startswith(prefix) for prefix in ("/", "C:\\"))
 
 
+def test_lexical_dictionary_can_skip_eager_startup_build():
+    cfg = Settings(lexical_dictionary_build_on_startup=False)
+    assert cfg.lexical_dictionary_build_on_startup is False
+
+
 @pytest.mark.asyncio
 async def test_stats_does_not_expose_internal_file_paths(tmp_path):
     index = ConceptIndex.from_bundled_dir(Path("app/data/concepts"))

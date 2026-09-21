@@ -22,7 +22,7 @@ class LexicalEntry:
 
 
 class LexicalDictionary:
-    def __init__(self, path: str, nltk_data_path: str):
+    def __init__(self, path: str, nltk_data_path: str, build_on_startup: bool = True):
         base_dir = Path(__file__).resolve().parents[2]
         self.path = Path(path)
         if not self.path.is_absolute():
@@ -32,7 +32,9 @@ class LexicalDictionary:
         if not nltk_path.is_absolute():
             nltk_path = base_dir / nltk_path
         nltk.data.path.insert(0, str(nltk_path.resolve()))
-        self._ensure_index()
+        self._build_on_startup = build_on_startup
+        if self._build_on_startup:
+            self._ensure_index()
 
     def _connect(self):
         return sqlite3.connect(self.path)
@@ -54,10 +56,16 @@ class LexicalDictionary:
                         rows[word] = (synset.pos(), definition)
             db.executemany("INSERT INTO entries(word, pos, definition) VALUES (?, ?, ?)", ((word, *value) for word, value in rows.items()))
 
+    def _lazy_ensure_index(self):
+        if not self._build_on_startup:
+            self._build_on_startup = True
+            self._ensure_index()
+
     def lookup(self, word: str) -> LexicalEntry | None:
         normalized = normalize(word)
         if not normalized or " " in normalized:
             return None
+        self._lazy_ensure_index()
         with self._connect() as db:
             for form in stem_variants(normalized):
                 row = db.execute("SELECT pos, definition FROM entries WHERE word = ?", (form,)).fetchone()
